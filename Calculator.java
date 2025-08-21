@@ -6,7 +6,15 @@ public class Calculator {
         if (b == 0) throw new ArithmeticException("Divide by zero");
         return a / b;
     }
-
+  
+    public int continuousAdd(int... numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        return sum;
+    }
+  
     public int cube(int a) {
         return a * a * a;
     }
