@@ -6,4 +6,9 @@ public class Calculator {
         if (b == 0) throw new ArithmeticException("Divide by zero");
         return a / b;
     }
+
+    public int cube(int a) {
+        return a * a * a;
+    }
+
 }
